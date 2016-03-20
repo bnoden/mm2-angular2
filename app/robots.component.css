@@ -1,0 +1,63 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: #9AACB3;
+}
+.robots {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 10em;
+}
+.robots li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #0E1CB5;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 0px;
+}
+.robots li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.robots li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.robots .text {
+  position: relative;
+  top: -3px;
+}
+.robots .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #0008FF;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+}
+button {
+  font-family: Arial;
+  color: #fff;
+  background-color: #BD3A3A;
+  border-radius: 10%;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  color: #BD3A3A;
+  background-color: #fff;
+}
+
+/*
+Brandon Oden
+3/17/2016
+ */

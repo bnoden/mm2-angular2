@@ -1,0 +1,23 @@
+<div *ngIf!="selectedRobot">
+<h2>Robot Masters</h2>
+</div>
+<div *ngIf="selectedRobot">
+  <h3>
+    <i>{{selectedRobot.name | uppercase}}</i>
+  <button (click)="gotoDetail()"><i>stats</i></button>
+  </h3>
+</div>
+<ul class="robots">
+  <li *ngFor="#robot of robots"
+    [class.selected]="robot === selectedRobot"
+    (click)="onSelect(robot)">
+    <strong>{{robot.name}}</strong>
+  </li>
+</ul>
+
+
+
+<!--
+Brandon Oden
+3/17/2016
+ -->

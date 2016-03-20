@@ -1,0 +1,18 @@
+<div *ngIf="robot">
+  <h2>{{robot.name}} stats:</h2>
+  <div>
+    <label>no. </label>{{robot.id}}</div>
+  <div>
+    <label>name </label>
+    <input [(ngModel)]="robot.name" placeholder="name" />
+  </div>
+  <div>
+    <label>weak </label>
+    <input [(ngModel)]="robot.weakness" placeholder="weakness" />
+  </div>
+  <div>
+    <label>gives </label>
+    <input [(ngModel)]="robot.gives" placeholder="gives" />
+  </div>
+  <button (click)="goBack()">wtf</button>
+</div>
