@@ -9,7 +9,7 @@ import { RobotDetailComponent } from './robot-detail.component';
 @Component({
   selector: 'my-app',
   template: `
-    <h1>{{title}}</h1>
+    <img src="/img/title03.png" width="240px">
     <nav>
       <a [routerLink]="['Favorites']">Favorites</a>
       <a [routerLink]="['Robots']">List</a>
@@ -25,7 +25,7 @@ import { RobotDetailComponent } from './robot-detail.component';
 })
 @RouteConfig([
   {
-      path: '/favorites',
+    path: '/favorites',
     name: 'Favorites',
     component: FavoritesComponent,
     useAsDefault: true

@@ -40,7 +40,7 @@ System.register(['angular2/core', 'angular2/router', './robot.service', './favor
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>{{title}}</h1>\n    <nav>\n      <a [routerLink]=\"['Favorites']\">Favorites</a>\n      <a [routerLink]=\"['Robots']\">List</a>\n    </nav>\n    <router-outlet></router-outlet>\n  ",
+                        template: "\n    <img src=\"/img/title03.png\" width=\"240px\">\n    <nav>\n      <a [routerLink]=\"['Favorites']\">Favorites</a>\n      <a [routerLink]=\"['Robots']\">List</a>\n    </nav>\n    <router-outlet></router-outlet>\n  ",
                         styleUrls: ['app/app.component.css'],
                         directives: [router_1.ROUTER_DIRECTIVES],
                         providers: [

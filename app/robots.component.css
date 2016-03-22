@@ -11,15 +11,13 @@
 .robots li {
   cursor: pointer;
   position: relative;
-  left: 0;
-  background-color: #0E1CB5;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 0px;
+  background-color: #293EB3;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 6px;
 }
 .robots li:hover {
-  color: #607D8B;
+  color: #293EB3;
   background-color: #DDD;
   left: .1em;
 }
@@ -28,8 +26,7 @@
   color: white;
 }
 .robots .text {
-  position: relative;
-  top: -3px;
+  position: center;
 }
 .robots .badge {
   display: inline-block;
@@ -38,11 +35,7 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #0008FF;
   line-height: 1em;
-  position: relative;
-  left: -1px;
-  top: -4px;
-  height: 1.8em;
-  margin-right: .8em;
+  position: center;
 }
 button {
   font-family: Arial;
