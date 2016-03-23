@@ -1,3 +1,11 @@
+div.col {
+  float: left;
+  width: 144px;
+}
+div.col2{
+  float: auto;
+  margin-right: auto;
+}
 label {
   display: inline-block;
   width: 3em;
