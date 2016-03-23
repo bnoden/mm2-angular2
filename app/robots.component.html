@@ -4,14 +4,14 @@
 <div *ngIf="selectedRobot">
   <h3>
     <i>{{selectedRobot.name | uppercase}}</i>
-  <button (click)="gotoDetail()"><i>stats</i></button>
+  <button (click)="gotoDetail()"><i>info</i></button>
   </h3>
 </div>
 <ul class="robots">
   <li *ngFor="#robot of robots"
     [class.selected]="robot === selectedRobot"
     (click)="onSelect(robot)">
-    <strong>{{robot.name}}</strong>
+    <img src="/img/{{robot.id}}a.png" width="24px" style="border-radius: 32px 32px 32px 32px"><strong>{{robot.name}}</strong><br>
   </li>
 </ul>
 

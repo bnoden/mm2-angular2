@@ -11,9 +11,10 @@
 .robots li {
   cursor: pointer;
   position: relative;
+  text-align: left;
   background-color: #293EB3;
   margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  padding: 2px 2px 2px 2px;
   border-radius: 6px;
 }
 .robots li:hover {
@@ -35,10 +36,9 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #0008FF;
   line-height: 1em;
-  position: center;
+  position: left;
 }
 button {
-  font-family: Arial;
   color: #fff;
   background-color: #BD3A3A;
   border-radius: 10%;
