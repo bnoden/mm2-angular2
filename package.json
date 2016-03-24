@@ -2,7 +2,7 @@
   "name": "mm2-angular2",
   "version": "1.0.1",
   "scripts": {
-    "start": "https://54.209.23.218",    
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",    
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
