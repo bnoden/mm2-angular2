@@ -2,7 +2,7 @@
   "name": "mm2-angular2",
   "version": "1.0.1",
   "scripts": {
-    "start": "54.209.23.218",    
+    "start": "https://54.209.23.218",    
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
