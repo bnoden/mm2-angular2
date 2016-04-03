@@ -1,4 +1,4 @@
-View a running version of this at http://plnkr.co/Wn6cfc
+View a running version of this at http://embed.plnkr.co/Wn6cfc/
 (Plunker code was changed to link images)
 
 Here I am playing with Angular 2.
